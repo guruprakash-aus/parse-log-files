@@ -20,11 +20,14 @@ The Http Log Analyzer helps the users to analyze their server logs and get meani
 git clone 
 cd parse-log-files
 
-# Start all services
-make up
+# Build and Start all services
+make prod
 
 # Or without Make:
 docker-compose -f docker-compose.yml up -d
+
+# Stop Services
+make down
 ```
 
 #### Local Development
