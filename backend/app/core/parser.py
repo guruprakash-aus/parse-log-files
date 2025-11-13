@@ -19,7 +19,7 @@ class LogEntry:
 class LogParser:
     """Parser for log files"""
     
-    # Regex pattern for Apache Common/Combined log format
+    # Regex pattern
     LOG_PATTERN = re.compile(
         r'^(\S+) '           # IP address
         r'\S+ \S+ '          # identd and userid

@@ -24,7 +24,7 @@ async def analyze_log(file: UploadFile = File(..., description="Log file to anal
     """
     Analyze uploaded log file
     
-    - **file**: Log file in Apache Common/Combined format
+    - **file**: Log file
     
     Returns analysis including:
     - Total requests
